@@ -99,3 +99,24 @@ footer {
     text-align: center;
     padding: 20px;
 }
+input, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+form {
+    max-width: 500px;
+    margin: auto;
+}
+
+@media (max-width: 600px) {
+    .event-card {
+        width: 90%;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+}
